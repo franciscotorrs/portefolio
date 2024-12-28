@@ -184,6 +184,7 @@ body {
     .about-text {
         width: 100%;
         padding: 0 20px;
+        order:0;
     }
 
     .about-icons {
@@ -191,9 +192,6 @@ body {
         justify-content: center;
         margin-top: 20px;
         order: 1;
-    }
-    .about-text {
-        order: 0; /* Ensure text is displayed above the icons */
     }
 
     .about-icons .icon {
